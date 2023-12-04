@@ -32,7 +32,7 @@ const WorkoutForm = () => {
       setLoad("");
       setReps("");
       console.log("new workout added:", json);
-      dispatch({ type: "CREATE_WORKOUTS", payload: json });
+      dispatch({ type: "CREATE_WORKOUT", payload: json });
     }
   };
 
